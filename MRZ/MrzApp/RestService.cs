@@ -41,9 +41,10 @@ namespace MrzApp
             {
                 var resultContent = await httpResponseMessage.Content.ReadAsStringAsync();
                 mrzData = JsonConvert.DeserializeObject<MrzDto>(resultContent);
+                return mrzData;
             }
 
-            return mrzData;
+            return null;
         }
 
         public async Task<MediaFile> SelectImageAsync()

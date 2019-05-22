@@ -25,6 +25,8 @@ namespace MrzApp.View
         {
             MrzDto mrzData = await _restService.GetMrzData();
             BindingContext = mrzData;
+            if (mrzData == null)
+                await DisplayAlert("Ошибка", "Попробуйте сделать снимок снова...", "OK");
         }
 
         async void OnSaveClicked(object sender, EventArgs e)
@@ -44,6 +46,8 @@ namespace MrzApp.View
             };
 
             await App.Database.SaveItemAsync(mrzItem);
+
+            await DisplayAlert("Сохранено", "Данные паспорта удачно сохранены", "OK");
         }
     }
 }
