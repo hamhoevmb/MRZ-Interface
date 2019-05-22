@@ -8,17 +8,26 @@
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\DataPage.xaml</FilePath>
-      <Hash>2A-05-9C-09-02-4B-93-90-AF-74-0C-BC-AA-75-AA-82</Hash>
-      <Properties />
+      <Hash>DD-93-66-B8-4B-B9-BF-F4-61-CD-58-F8-C6-70-0F-09</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\GuidePage.xaml</FilePath>
+      <Hash>96-F2-16-CA-72-6D-2C-47-C9-87-D5-58-3E-2B-57-DF</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MainPage.xaml</FilePath>
-      <Hash>97-41-EA-67-63-5F-C3-F4-E3-EA-F2-61-CC-B4-D4-8E</Hash>
+      <Hash>69-C0-3D-71-42-AA-97-36-50-33-E6-80-20-85-F0-17</Hash>
       <Properties />
     </XamlFileMeta>
     <XamlFileMeta>
       <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MasterPage.xaml</FilePath>
-      <Hash>30-CA-BE-35-FD-8A-9C-69-24-6A-0C-1B-2E-25-E3-3A</Hash>
+      <Hash>00-1A-26-CA-0D-34-B4-1F-8A-32-06-4E-7F-38-44-E0</Hash>
       <Properties>
         <string>Padding</string>
         <string>Icon</string>
@@ -27,9 +36,18 @@
       </Properties>
     </XamlFileMeta>
     <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MrzItemPage.xaml</FilePath>
+      <Hash>8E-15-8B-D4-AE-F8-89-C3-2D-44-1D-EF-A0-9B-87-AD</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
       <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MrzPage.xaml</FilePath>
-      <Hash>29-03-B5-D9-29-92-03-A0-8C-43-E5-32-AB-0F-1F-0C</Hash>
-      <Properties />
+      <Hash>4D-56-5C-E0-AC-92-6F-63-4E-56-C2-FA-9A-0E-3B-48</Hash>
+      <Properties>
+        <string>Title</string>
+      </Properties>
     </XamlFileMeta>
   </Files>
 </XamlProjectMeta>

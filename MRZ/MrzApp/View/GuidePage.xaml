@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MrzApp.View.GuidePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Руководство">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label
+                    Margin="5,5,5,5"
+                    FontSize="Large"
+                    HorizontalOptions="Center"
+                    Text="Добро пожаловать в MrzRecognizer!"
+                    VerticalOptions="Center" />
+                <Editor
+                    Margin="30,0,20,30"
+                    HorizontalOptions="CenterAndExpand"
+                    IsReadOnly="True"
+                    Text="Это приложение позволит Вам распознать данные паспорта за счет машиночитаемой зоны, которая обычно расположена внизу титульной страницы. Приложение автоматически определяет эту зону, тем не менее, рекомендуется сделать более точный снимок. Камеру необходимо держать вертикально. Зона должна полностью входить в снимок. Удачи!"
+                    VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+
+</ContentPage>

@@ -33,19 +33,25 @@ namespace MrzApp.View
                 IconSource = "todo.png",
                 TargetType = typeof(DataPage)
             });
-            
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "Руководство",
+                IconSource = "todo.png",
+                TargetType = typeof(GuidePage)
+            });
+
             listView = new ListView
             {
                 ItemsSource = masterPageItems,
                 ItemTemplate = new DataTemplate(() =>
                 {
-                    var grid = new Grid { Padding = new Thickness(10, 10) };
+                    var grid = new Grid { Padding = new Thickness(20, 5, 20, 10) };
                     grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(30) });
                     grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Star });
 
                     var image = new Image();
                     image.SetBinding(Image.SourceProperty, "IconSource");
-                    var label = new Label { VerticalOptions = LayoutOptions.FillAndExpand };
+                    var label = new Label { VerticalOptions = LayoutOptions.FillAndExpand, FontSize = 17};
                     label.SetBinding(Label.TextProperty, "Title");
 
                     grid.Children.Add(image);

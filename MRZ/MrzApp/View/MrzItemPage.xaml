@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MrzApp.View.MrzItemPage"
+             Title="{Binding Surname}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" 
+                   TargetType="Label">
+                <Setter Property="FontSize" 
+                        Value="Small" />
+                <Setter Property="TextColor" 
+                        Value="Gray" />
+            </Style>
+
+            <Style x:Key="labelResultStyle" 
+                   TargetType="Label">
+                <Setter Property="FontSize" 
+                        Value="Medium" />
+                <Setter Property="Margin" 
+                        Value="10,0,0,0" />
+            </Style>
+
+            <!--<local:LongToDateTimeConverter x:Key="longToDateTimeConverter" />-->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <Label Text="Фамилия" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding Surname}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Имя Отчество" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding Names}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Страна" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding Country}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Серия номер" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding Number}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Дата рождения" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding DateOfBirth}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Национальность" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding Nationality}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Пол" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding Sex}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Персональный номер" 
+                       Style="{StaticResource labelStyle}" />
+                <Entry Text="{Binding PersonalNumber}" 
+                       Style="{StaticResource labelResultStyle}" />
+                
+                <Button
+                      Margin="30,30,30,0"
+                      WidthRequest="300"
+                      HeightRequest="65"
+                      HorizontalOptions="Center"
+                      Text="Сохранить"
+                      BorderWidth="1"
+                      BorderColor="White"
+                      BackgroundColor="DarkGray"
+                      TextColor="White"
+                      Clicked="OnSaveClicked" />
+                
+                <Button
+                      Margin="30,30,30,30"
+                      WidthRequest="300"
+                      HeightRequest="65"
+                      HorizontalOptions="Center"
+                      Text="Удалить"
+                      BorderWidth="1"
+                      BorderColor="White"
+                      BackgroundColor="DarkGray"
+                      TextColor="White"
+                      Clicked="OnDeleteClicked" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

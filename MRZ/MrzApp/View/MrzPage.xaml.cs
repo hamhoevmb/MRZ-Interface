@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MrzApp;
+using MrzApp.Data;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -22,8 +23,27 @@ namespace MrzApp.View
 
         public async void OnGetMrzButtonClicked(object sender, EventArgs e)
         {
-            MrzData mrzData = await _restService.GetMrzData();
+            MrzDto mrzData = await _restService.GetMrzData();
             BindingContext = mrzData;
+        }
+
+        async void OnSaveClicked(object sender, EventArgs e)
+        {
+            var mrzDto = (MrzDto)BindingContext;
+
+            var mrzItem = new MrzItem()
+            {
+                Country = mrzDto.Country,
+                DateOfBirth = mrzDto.DateOfBirth,
+                Names = mrzDto.Names,
+                Nationality = mrzDto.Nationality,
+                Number = mrzDto.Number,
+                PersonalNumber = mrzDto.PersonalNumber,
+                Sex = mrzDto.Sex,
+                Surname = mrzDto.Surname
+            };
+
+            await App.Database.SaveItemAsync(mrzItem);
         }
     }
 }

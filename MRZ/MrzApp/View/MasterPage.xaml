@@ -12,13 +12,14 @@
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Title="Распознавание" IconSource="contacts.png" TargetType="{x:Type local:MrzPage}" />
-                    <local:MasterPageItem Title="Сохраненное" IconSource="todo.png" TargetType="{x:Type local:DataPage}" />
+                    <local:MasterPageItem Title="Сохраненное" IconSource="todo.png" TargetType="{x:Type local:DataPage}"/>
+                    <local:MasterPageItem Title="Сохраненное" IconSource="todo.png" TargetType="{x:Type local:DataPage}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="10,10,10,10">
+                        <Grid Padding="20,5,20,10">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="30"/>
                                 <ColumnDefinition Width="*" />

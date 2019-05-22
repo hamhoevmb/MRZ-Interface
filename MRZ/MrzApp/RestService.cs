@@ -20,10 +20,10 @@ namespace MrzApp
             _client = new HttpClient();
         }
 
-        public async Task<MrzData> GetMrzData()
+        public async Task<MrzDto> GetMrzData()
         {
             var mediaFile = await SelectImageAsync();
-            MrzData mrzData = null;
+            MrzDto mrzData = null;
 
             var content = new MultipartFormDataContent();
             content.Add(new StreamContent(mediaFile.GetStream()),
@@ -40,7 +40,7 @@ namespace MrzApp
             if (httpResponseMessage.IsSuccessStatusCode)
             {
                 var resultContent = await httpResponseMessage.Content.ReadAsStringAsync();
-                mrzData = JsonConvert.DeserializeObject<MrzData>(resultContent);
+                mrzData = JsonConvert.DeserializeObject<MrzDto>(resultContent);
             }
 
             return mrzData;

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MrzApp.Data;
+using System;
+using System.IO;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,6 +9,8 @@ namespace MrzApp.View
 {
     public partial class App : Application
     {
+        static MrzItemDatabase database;
+
         public App()
         {
             // Initialize Live Reload.
@@ -33,5 +37,19 @@ namespace MrzApp.View
         {
             // Handle when your app resumes
         }
+
+        public static MrzItemDatabase Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new MrzItemDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TodoSQLite.db3"));
+                }
+                return database;
+            }
+        }
+
+        public int ResumeAtTodoId { get; set; }
     }
 }
