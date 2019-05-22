@@ -1,0 +1,8 @@
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\MrzApp.iOS.csprojAssemblyReference.cache
+C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.iOS\obj\iPhoneSimulator\Debug\MrzApp.iOS.csproj.CoreCompileInputs.cache

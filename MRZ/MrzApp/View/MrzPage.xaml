@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MrzApp"
+             x:Class="MrzApp.View.MrzPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelStyle" 
+                   TargetType="Label">
+                <Setter Property="FontSize" 
+                        Value="Small" />
+                <Setter Property="TextColor" 
+                        Value="Gray" />
+            </Style>
+
+            <Style x:Key="labelResultStyle" 
+                   TargetType="Label">
+                <Setter Property="FontSize" 
+                        Value="Medium" />
+                <Setter Property="Margin" 
+                        Value="10,0,0,0" />
+            </Style>
+
+            <!--<local:LongToDateTimeConverter x:Key="longToDateTimeConverter" />-->
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout>
+        <Grid BackgroundColor="#545454" 
+              Padding="10,0,0,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+
+            <Label Text="Распознавание паспорта" 
+                   Grid.ColumnSpan="3"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White" 
+                   FontAttributes="Bold" 
+                   FontSize="20"
+                   />
+
+            <Button Grid.Row="2" 
+                    Grid.Column="2"
+                    WidthRequest="300"
+                    HeightRequest="30"
+                    HorizontalOptions="Center"
+                    Text="Распознать" 
+                    BorderWidth="1"
+                    BorderColor="White"
+                    BackgroundColor="DarkGray"
+                    TextColor="White"
+                    Clicked="OnGetMrzButtonClicked" />
+        </Grid>
+
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <Label Text="Фамилия" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding Surname}" 
+                       Style="{StaticResource labelResultStyle}" />
+                
+                <Label Text="Имя Отчество" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding Names}" 
+                       Style="{StaticResource labelResultStyle}" />
+                
+                <Label Text="Страна" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding Country}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Серия номер" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding Number}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Дата рождения" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding DateOfBirth}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Национальность" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding Nationality}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Пол" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding Sex}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+                <Label Text="Персональный номер" 
+                       Style="{StaticResource labelStyle}" />
+                <Label Text="{Binding PersonalNumber}" 
+                       Style="{StaticResource labelResultStyle}" />
+
+
+                <Button 
+                    Margin="30 0 0 0"
+                    WidthRequest="300"
+                    HeightRequest="65"
+                    HorizontalOptions="Center"
+                    Text="Сохранить" 
+                    BorderWidth="1"
+                    BorderColor="White"
+                    BackgroundColor="DarkGray"
+                    TextColor="White"
+                    Clicked="OnGetMrzButtonClicked" />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

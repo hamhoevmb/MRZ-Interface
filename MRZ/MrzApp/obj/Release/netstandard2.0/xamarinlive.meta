@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\App.xaml</FilePath>
+      <Hash>E0-AB-DC-7A-E6-7E-F7-76-31-B2-94-2F-03-34-31-F7</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\DataPage.xaml</FilePath>
+      <Hash>2A-05-9C-09-02-4B-93-90-AF-74-0C-BC-AA-75-AA-82</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MainPage.xaml</FilePath>
+      <Hash>97-41-EA-67-63-5F-C3-F4-E3-EA-F2-61-CC-B4-D4-8E</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MasterPage.xaml</FilePath>
+      <Hash>30-CA-BE-35-FD-8A-9C-69-24-6A-0C-1B-2E-25-E3-3A</Hash>
+      <Properties>
+        <string>Padding</string>
+        <string>Icon</string>
+        <string>Title</string>
+        <string>BackgroundColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\View\MrzPage.xaml</FilePath>
+      <Hash>29-03-B5-D9-29-92-03-A0-8C-43-E5-32-AB-0F-1F-0C</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>
