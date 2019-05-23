@@ -1,2 +1,2 @@
 android.app.Application
-com.companyname.WeatherApp
+com.Troizkiy.MrzApp

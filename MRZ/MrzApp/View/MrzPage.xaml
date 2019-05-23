@@ -21,8 +21,12 @@
         <Setter Property="Margin"
                 Value="10,0,0,0" />
       </Style>
-
-    </ResourceDictionary>
+            <local:LongToDateTimeConverter x:Key="longToDateTimeConverter" />
+            <local:SexConverter x:Key="sexConverter" />
+            <local:NationalityConverter x:Key="nationalityConverter" />
+            <local:CountryConverter x:Key="countryConverter" />
+            <local:DateOfBirthConverter x:Key="dateOfBirthConverter" />
+        </ResourceDictionary>
   </ContentPage.Resources>
 
   <ScrollView>
@@ -54,7 +58,7 @@
 
       <Label Text="Страна"
              Style="{StaticResource labelStyle}" />
-      <Entry Text="{Binding Country}"
+            <Entry Text="{Binding Country, Converter={StaticResource countryConverter}, Mode=OneWay}"
              Style="{StaticResource labelResultStyle}" />
 
       <Label Text="Серия номер"
@@ -73,7 +77,7 @@
 
       <Label Text="Дата рождения"
              Style="{StaticResource labelStyle}" />
-      <Entry Text="{Binding DateOfBirth}"
+            <Entry Text="{Binding DateOfBirth, Converter={StaticResource dateOfBirthConverter}, Mode=OneWay}"
              Style="{StaticResource labelResultStyle}">
         <Entry.Triggers>
           <DataTrigger Binding="{Binding ValidDateOfBirth}" TargetType="Entry" Value="true">
@@ -87,12 +91,12 @@
 
       <Label Text="Национальность"
              Style="{StaticResource labelStyle}" />
-      <Entry Text="{Binding Nationality}"
+            <Entry Text="{Binding Nationality, Converter={StaticResource nationalityConverter}, Mode=OneWay}"
              Style="{StaticResource labelResultStyle}" />
 
       <Label Text="Пол"
              Style="{StaticResource labelStyle}" />
-      <Entry Text="{Binding Sex}"
+            <Entry Text="{Binding Sex, Converter={StaticResource sexConverter}, Mode=OneWay} "
              Style="{StaticResource labelResultStyle}" />
 
       <Label Text="Персональный номер"

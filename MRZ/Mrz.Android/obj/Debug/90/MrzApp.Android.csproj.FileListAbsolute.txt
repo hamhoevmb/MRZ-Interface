@@ -138,8 +138,6 @@ C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp.Android\o
 C:\Users\Michael\source\repos\Other\Diploma\Weather\Weather\WeatherApp\bin\Debug\netstandard2.0\MrzApp.dll
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\WeatherApp.Android.dll
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\WeatherApp.Android.pdb
-C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\com.companyname.WeatherApp.apk
-C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\com.companyname.WeatherApp-Signed.apk
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\MrzApp.dll
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\MrzApp.pdb
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\MrzApp.dll.mdb
@@ -153,7 +151,6 @@ C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\De
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\MrzApp.Android.csproj.CopyComplete
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\WeatherApp.Android.dll
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\WeatherApp.Android.pdb
-C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\android\bin\com.companyname.WeatherApp.apk
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\res\values\styles.xml
@@ -273,6 +270,10 @@ C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\De
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\android\assets\Xamarin.Forms.HotReload.Reloader.pdb
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\com.Troizkiy.MrzApp.apk
+C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\com.Troizkiy.MrzApp-Signed.apk
+C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\android\bin\com.Troizkiy.MrzApp.apk
+C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\res\drawable\iconapp.png
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\MrzApp\bin\Debug\netstandard2.0\MrzApp.dll
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\bin\Debug\MrzApp.dll.mdb
 C:\Users\Michael\source\repos\Other\Diploma\mrz-interface\MRZ\Mrz.Android\obj\Debug\90\linksrc\MrzApp.dll.mdb

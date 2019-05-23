@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using MrzApp.View;
 using UIKit;
 
 namespace MrzApp.iOS

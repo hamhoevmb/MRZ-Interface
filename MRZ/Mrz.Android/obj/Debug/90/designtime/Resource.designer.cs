@@ -5576,6 +5576,9 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0x7F010004
 			public const int icon = 2130771972;
 			
+			// aapt resource value: 0x7F010005
+			public const int iconapp = 2130771973;
+			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_dark = 2131296341;
 			
@@ -6221,11 +6224,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010005
-			public const int reminders = 2130771973;
-			
 			// aapt resource value: 0x7F010006
-			public const int todo = 2130771974;
+			public const int reminders = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int todo = 2130771975;
 			
 			// aapt resource value: 0x7F09006F
 			public const int tooltip_frame_dark = 2131296367;

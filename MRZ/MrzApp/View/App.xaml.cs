@@ -15,7 +15,7 @@ namespace MrzApp.View
         {
             // Initialize Live Reload.
 #if DEBUG
-            HotReloader.Current.Start(this);
+            //HotReloader.Current.Start(this);
 #endif
 
             InitializeComponent();
