@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyMetadata("MqttSessionId", "00155d380100")]
-[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "10.0.75.1|169.254.80.80|192.168.56.1|192.168.43.176|172.24.250.81")]
+[assembly: System.Reflection.AssemblyMetadata("MqttLocalHostAddress", "10.0.75.1|172.24.250.81|169.254.80.80|192.168.56.1|192.168.43.176")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MrzApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
